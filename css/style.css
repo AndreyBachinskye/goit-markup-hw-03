@@ -48,6 +48,7 @@ body{
 .container{
     width: 1158px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 img{
@@ -56,6 +57,11 @@ img{
 
 .main{
     width: 1440px;
+}
+
+.section{
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 /* _________________HEADER__________________ */
 
@@ -145,12 +151,10 @@ img{
 /* _________________________hero_____________ */
 .hero {
     background-color: var(--background-color);
-    width: 1440px;
-    height: 600px;
 }
 
 .hero-container{
-    padding-top: 188px;
+
 }
 
 .hero-text {
@@ -188,15 +192,12 @@ img{
 /* ________________Tech_____________________ */
 
 .tech {
-    width: 1440px;
 }
 
 .tech-container{
-    padding-top: 120px;
 }
 
 .tech-list {
-    height: 104px;
 }
 
 .tech-list-item {
@@ -225,9 +226,7 @@ img{
 /* ________________________ what-are-we-doing____________________ */
 
 .what-are-we-doing {
-    width: 1440px;
-    height: 532px;
-    margin-top: 120px;
+
 }
 
 
@@ -262,23 +261,20 @@ img{
 /* ______________OUR TEAM____________________ */
 
 .our-team {
-    width: 1440px;
-    height: 732px;
     background-color:  #F4F4FD;
 }
 
 .our-team-container{
-    padding-top: 120px;
 }
 
 .team-list {
     padding: 0;
     margin-top: 72px;
+    display: flex;
 }
 
 .team-item {
     list-style: none;
-    display: inline-block;
     margin: 0 24px 0 0;
     background-color: #ffffff;
     height: 380px;
@@ -288,6 +284,10 @@ img{
     margin: 0 0 0 0;
 }
 
+.team-text{
+    padding: 32px 60px;
+}
+
 .person-name {
     font-weight: 500;
     font-size: 20px;
@@ -295,9 +295,7 @@ img{
     letter-spacing: 0.02em;
     line-height: 1.2;
     color: var(--color-navy-blue);
-    margin-top: 32px;
-    margin-bottom: 8px;
-    
+    margin-bottom: 8px;   
 }
 
 .position-work {
@@ -307,13 +305,13 @@ img{
 /* __________FOOTER_______________ */
 
 .footer{
-    width: 1440px;
-    height: 312px;
     background-color: var(--color-navy-blue);
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 1440px;
 }
 
 .footer-container{
-    padding-top: 101.5px;
 }
 
 .footer-logo {
@@ -345,16 +343,16 @@ img{
 /* Portfolio */
 
 .section-portfolio{
-    margin-top: 96px;
+
 }
 
 .button-list{
     display: flex;
-    margin-bottom: 84px;
+    margin-bottom: 72px;
     justify-content: center;
 }
 
-.buttno-item{
+.button-item{
     margin-right: 24px;
 }
 
@@ -365,9 +363,7 @@ img{
 
 .item-img-portfolio{
     width: 360px;
-    height: 420px;
     margin-right: 24px;
-    border: 1px solid #E7E9FC;
     margin-bottom: 48px;
 }
 
@@ -384,7 +380,6 @@ img{
     margin-bottom: 0;
 }
 
-
 .filter-btn{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -394,7 +389,7 @@ img{
     padding: 12px 24px;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
-    margin-right: 24px;
+    
 }
 
 .buttno-item:last-child{
@@ -407,24 +402,26 @@ img{
     cursor: pointer;
 }
 
+.portfolio-text{
+    border: 1px solid #E7E9FC;
+    padding: 32px 16px;
+}
+
 .title-under-img{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--color-navy-blue);
-    margin-top: 32px;
     margin-bottom: 8px;
-    margin-left: 16px;
 }
 
 
 .paragraf-under-img{
     color: var(--color-slate);
-    margin-left: 16px;
+
 }
 
-
 .footer-portfolio{
-    margin-top: 120px;
+
 }
